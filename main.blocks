@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Ll)zmXsAEH]m`Puv$Ryg" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id=":uN-|esq/Tpl@-Ce*q6E"><value name="ID"><shadow type="math_number_minmax" id="uyxPlv3Iw=KjI`Gm;E6K"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">2</field></shadow></value></block></statement></block><block type="device_button_event" id="9_.T_^Nf.88tHiRH+|F}" x="36" y="132"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="$GK{$H6!Xcrqg$~O7AYn"><next><block type="radio_datagram_send_string" id="*5txzHnI4!uB_,Hs]x%{"><value name="msg"><shadow type="text" id="O*A@3+{Nc,t:::b#v?!O"><field name="TEXT">smile</field></shadow></value></block></next></block></statement></block><block type="radio_on_string_drag" id="+H9Sm2h_1p#Ac_+-@}4k" x="32" y="344"><value name="HANDLER_DRAG_PARAM_receivedString"><shadow type="argument_reporter_string" id="ZXfE#`;4R3W4H_iC{mX!"><field name="VALUE">receivedString</field></shadow></value><statement name="HANDLER"><block type="device_show_leds" id="ePBg):53;L1j.a|%^Br="><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block></xml>
